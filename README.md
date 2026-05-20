@@ -1,50 +1,38 @@
-Flask-Redis-Demo: 
-A simple Flask web app using Redis to store and display the number of visitors. This project is part of my DevOps-Portfolio under the Docker-Containers module.
+# DevOps-Portfolio
 
-Project Overview:
-This project demonstrates a multi-container setup with Flask and Redis. The app tracks how many times the homepage has been visited and displays the visitor count dynamically.
+A curated collection of my DevOps learning projects, demonstrating skills in Linux, Bash, Networking, Docker & Containers, AWS, and other DevOps tools. Each project is documented, runnable, and includes evidence such as screenshots and configuration files.
 
-Steps Taken
-Step 1: Project Setup
-Created the project folder:
-mkdir -p Docker-Containers/Flask-Redis-Demo
-cd Docker-Containers/Flask-Redis-Demo
+---
 
-Step 2: Initial Files
-Created essential files and folders:
-README.md
-requirements.txt
-app/app.py
-Dockerfile
-docker-compose.yml
-screenshots/
-Added all files to Git, committed, and pushed to GitHub.
+## **Modules and Projects**
 
+### **1. Linux**
+- Linux command practice and scripts
+- Documentation of commands, outputs, and learnings
 
-Step 3: Writing the Code
-Used nano editor to write code in the correct files:
-Flask app logic in app/app.py
-Python dependencies in requirements.txt
-Docker image instructions in Dockerfile
-Multi-container orchestration in docker-compose.yml
-Committed and pushed all updates to GitHub.
+### **2. Bash Scripting**
+- Scripts collection for automation
+- Step-by-step examples and explanations
 
+### **3. Networking**
+- EC2 instance setup with NGINX
+- DNS, ping, and curl troubleshooting examples
+- Screenshots and commands included
 
-Step 4: Running Docker
-Initially ran: docker compose up -d
-Only the welcome page displayed; visitor count did not appear.
-Rebuilt the image to force Docker to use updated code: docker compose build --no-cache
-docker compose up -d
-After rebuilding, the Flask app displayed the visitor count correctly with Redis.
+### **4. Docker & Containers**
+- Flask + Redis Demo
+- Multi-container applications using Docker Compose
+- Visitor counter example showing container orchestration
+- Dockerfile, docker-compose.yml, and screenshots included
 
+### **5. AWS**
+- EC2, S3, and static website deployments
+- Step-by-step guides with screenshots and commands
+- Mini-projects documenting real-world cloud setups
 
-Step 5: Screenshots
-Captured screenshots of:
-Flask app showing the visitor count
-Docker containers running
-Added screenshots to screenshots/ folder and pushed to GitHub.
+---
 
-Outcome:
-Flask + Redis multi-container app is fully functional.
-Visitor count increments dynamically.
-Project is fully documented and saved in GitHub for portfolio and interview purposes.
+## **How to Use**
+1. Clone the repository:
+```bash
+git clone git@github.com:Najma99-git/DevOps-Portfolio.git
