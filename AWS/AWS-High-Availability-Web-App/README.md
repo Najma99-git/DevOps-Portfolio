@@ -8,9 +8,9 @@ The application remains accessible even if one web server becomes unavailable.
 
 ## Architecture
 
-Internet → Application Load Balancer → EC2 Instance 1 (NGINX)
+Internet - Application Load Balancer - EC2 Instance 1 (NGINX)
 
-                  ↘ EC2 Instance 2 (NGINX)
+                   EC2 Instance 2 (NGINX)
 
 ## Technologies Used
 
@@ -59,7 +59,7 @@ Created a custom HTML page displaying:
 ### 6. Verify Load Balancer
 
 ```bash
-curl http://<ALB-DNS-NAME>
+curl http://Najma-LoadBalancer-1295821951.eu-west-2.elb.amazonaws.com
 ```
 
 Successfully displayed the custom website.
@@ -92,6 +92,15 @@ Examples:
 * target-group-healthy.png
 * website-working.png
 * failover-test.png
+* 
+## High Availability Test
+
+1. Verified both EC2 instances were healthy.
+2. Verified traffic flowed through the ALB.
+3. Stopped one web server.
+4. Confirmed website remained available.
+5. Restarted server.
+6. Confirmed both targets became healthy again.
 
 ## Outcome
 
