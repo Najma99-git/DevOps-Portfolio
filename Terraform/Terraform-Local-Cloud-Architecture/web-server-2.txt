@@ -1,0 +1,4 @@
+SERVER NAME: web-server-2
+PROJECT: Terraform-Local-Cloud-Architecture
+ENVIRONMENT: development
+STATUS: Running

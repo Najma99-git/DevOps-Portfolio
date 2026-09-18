@@ -1,0 +1,8 @@
+LOAD BALANCER: web-load-balancer
+PROJECT: Terraform-Local-Cloud-Architecture
+ENVIRONMENT: development
+
+TARGET SERVERS:
+./web-server-1.txt
+./web-server-2.txt
+./web-server-3.txt
