@@ -19,6 +19,7 @@ The architecture consists of:
 
 Architecture flow:
 
+```
 User Traffic
      |
      v
@@ -28,6 +29,7 @@ Load Balancer
      |         |         |
      v         v         v
 Web Server 1  Web Server 2  Web Server 3
+```
 
 ## Project Structure
 
